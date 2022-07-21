@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AccountView.swift
 //  FormulaOneSwiftUI
 //
 //  Created by Oscar Cristaldo on 2022-07-20.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AccountView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Account view")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AccountView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AccountView()
     }
 }

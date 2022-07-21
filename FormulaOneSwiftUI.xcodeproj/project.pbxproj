@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0710B6E32888F19C0036C04D /* FormulaOneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6E22888F19C0036C04D /* FormulaOneSwiftUIApp.swift */; };
-		0710B6E52888F19C0036C04D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6E42888F19C0036C04D /* ContentView.swift */; };
+		0710B6E52888F19C0036C04D /* FormulaOneTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6E42888F19C0036C04D /* FormulaOneTabView.swift */; };
 		0710B6E72888F19D0036C04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0710B6E62888F19D0036C04D /* Assets.xcassets */; };
 		0710B6EA2888F19D0036C04D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0710B6E92888F19D0036C04D /* Preview Assets.xcassets */; };
+		0710B6F12888F23D0036C04D /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6F02888F23D0036C04D /* TeamListView.swift */; };
+		0710B6F32888F2EE0036C04D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6F22888F2EE0036C04D /* AccountView.swift */; };
+		0710B6F92888F4140036C04D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6F82888F4140036C04D /* Team.swift */; };
+		0710B6FB288903110036C04D /* TeamListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6FA288903110036C04D /* TeamListViewModel.swift */; };
+		0710B6FF288903CF0036C04D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B6FE288903CF0036C04D /* NetworkManager.swift */; };
+		0710B703288904930036C04D /* F1Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B702288904930036C04D /* F1Error.swift */; };
+		0710B706288909D30036C04D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B705288909D30036C04D /* Alert.swift */; };
+		0710B70A28890C530036C04D /* TeamListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B70928890C530036C04D /* TeamListCellView.swift */; };
+		0710B70E28890D460036C04D /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710B70D28890D460036C04D /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0710B6DF2888F19C0036C04D /* FormulaOneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulaOneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0710B6E22888F19C0036C04D /* FormulaOneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneSwiftUIApp.swift; sourceTree = "<group>"; };
-		0710B6E42888F19C0036C04D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0710B6E42888F19C0036C04D /* FormulaOneTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneTabView.swift; sourceTree = "<group>"; };
 		0710B6E62888F19D0036C04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0710B6E92888F19D0036C04D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0710B6F02888F23D0036C04D /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
+		0710B6F22888F2EE0036C04D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0710B6F82888F4140036C04D /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		0710B6FA288903110036C04D /* TeamListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewModel.swift; sourceTree = "<group>"; };
+		0710B6FE288903CF0036C04D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0710B702288904930036C04D /* F1Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1Error.swift; sourceTree = "<group>"; };
+		0710B705288909D30036C04D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		0710B70928890C530036C04D /* TeamListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListCellView.swift; sourceTree = "<group>"; };
+		0710B70D28890D460036C04D /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		0710B6E12888F19C0036C04D /* FormulaOneSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0710B70728890C290036C04D /* Views */,
+				0710B6FC2889039D0036C04D /* Utils */,
+				0710B6F72888F4070036C04D /* Models */,
+				0710B6F42888F36F0036C04D /* Screens */,
 				0710B6E22888F19C0036C04D /* FormulaOneSwiftUIApp.swift */,
-				0710B6E42888F19C0036C04D /* ContentView.swift */,
+				0710B6E42888F19C0036C04D /* FormulaOneTabView.swift */,
 				0710B6E62888F19D0036C04D /* Assets.xcassets */,
 				0710B6E82888F19D0036C04D /* Preview Content */,
 			);
@@ -65,6 +87,99 @@
 				0710B6E92888F19D0036C04D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0710B6F42888F36F0036C04D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0710B6F52888F3860036C04D /* Team */,
+				0710B6F62888F3920036C04D /* Account */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0710B6F52888F3860036C04D /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				0710B6F02888F23D0036C04D /* TeamListView.swift */,
+				0710B6FA288903110036C04D /* TeamListViewModel.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		0710B6F62888F3920036C04D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0710B6F22888F2EE0036C04D /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0710B6F72888F4070036C04D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0710B6F82888F4140036C04D /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0710B6FC2889039D0036C04D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0710B704288909780036C04D /* Alerts */,
+				0710B7002889047A0036C04D /* Errors */,
+				0710B6FD288903C20036C04D /* Managers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0710B6FD288903C20036C04D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0710B6FE288903CF0036C04D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0710B7002889047A0036C04D /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0710B702288904930036C04D /* F1Error.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0710B704288909780036C04D /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				0710B705288909D30036C04D /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		0710B70728890C290036C04D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0710B70C28890D2B0036C04D /* Image */,
+				0710B70B28890D230036C04D /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0710B70B28890D230036C04D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0710B70928890C530036C04D /* TeamListCellView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0710B70C28890D2B0036C04D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0710B70D28890D460036C04D /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +252,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0710B6E52888F19C0036C04D /* ContentView.swift in Sources */,
+				0710B706288909D30036C04D /* Alert.swift in Sources */,
+				0710B6F32888F2EE0036C04D /* AccountView.swift in Sources */,
+				0710B703288904930036C04D /* F1Error.swift in Sources */,
+				0710B6FB288903110036C04D /* TeamListViewModel.swift in Sources */,
+				0710B70E28890D460036C04D /* RemoteImage.swift in Sources */,
+				0710B6E52888F19C0036C04D /* FormulaOneTabView.swift in Sources */,
+				0710B6FF288903CF0036C04D /* NetworkManager.swift in Sources */,
+				0710B6F12888F23D0036C04D /* TeamListView.swift in Sources */,
+				0710B70A28890C530036C04D /* TeamListCellView.swift in Sources */,
+				0710B6F92888F4140036C04D /* Team.swift in Sources */,
 				0710B6E32888F19C0036C04D /* FormulaOneSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
