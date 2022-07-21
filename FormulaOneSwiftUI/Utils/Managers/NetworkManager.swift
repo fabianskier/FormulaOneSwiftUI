@@ -37,8 +37,6 @@ final class NetworkManager {
             }
             
             guard let data = data else {
-                let cangrejo = data
-                print("Hi")
                 completed(.failure(.invalidData))
                 return
             }
